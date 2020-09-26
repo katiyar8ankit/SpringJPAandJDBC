@@ -1,0 +1,26 @@
+server:
+  port:9030
+
+
+#Database Configuration
+spring:
+  dataSource:
+    url:jdbc:mysql://localhost:3306/books
+    username:root
+    password:root
+    driver-class-name:com.mysql.jdbc.Driver
+
+#spring:
+#  profiles:
+#    active:
+#    - test
+ 
+
+ 
+#spring:
+#  profiles: test
+#name: test-YAML
+#environment: testing
+#servers:
+#  - www.abc.test.com
+#  - www.xyz.test.com
